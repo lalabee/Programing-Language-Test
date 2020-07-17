@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+  <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+  <link href="css/styles.css" rel="stylesheet" type="text/css">
+  <script src="js/jquery-3.5.1.js"></script>
+  <script src="js/scripts.js"></script>
+  <title>Coding Quiz</title>
+</head>
+<body>
+  <div class="imagebox">
+    <img src="img/icons.jpeg" alt="images of programming icons.">
+    <p class= "beginTest"> Which programming language is right for you?
+  <div class="startButton">
+    <button>Take Test</button>
+  </div>
+    </p>
+  </div>
+  <div class="containerShowing">
+    <h3>Type in your answers to the questions below and this app will guide you to the programming language most suited to your interests.</h3>
+    <div>
+      <form id="formOne">
+        <div class="form-group">
+          <label for="question1">What is your favorite nursery rhyme?</label>
+          <input id="question1" class="form-control" type="text">
+        </div>
+        <div class="form-group">
+          <label for="question2">What is the name of your favorite beverage?</label>
+          <input id="question2" class="form-control" type="text">
+        </div>
+        <div class="form-group">
+          <label for="painter">Enter the name of your favorite artist/painter.</label>
+          <input id="painter" class="form-control" type="text">
+        </div>
+        <div class="form-group">
+          <label for="exclamation">Type in your least effective curse word.</label>
+          <input id="exclamation" class="form-control" type="text">
+        </div>
+        <div class="form-group">
+          <label for="transportation">How do you get around town?</label>
+          <input id="transportation" class="form-control" type="text">
+        </div>
+        <div class="form-group">
+          <label for="appliance">What is the most used kitchen appliance in your household?</label>
+          <input id="appliance" class="form-control" type="text">
+        </div>
+        <div class="storyHidden">
+          <button type="submit" class="btn">Which Programming Language should I study next?</button>
+        </div>
+      </form>
+    </div>
+  </div>
+      <div class="storyShowing">
+        <p>
+          Because your favorite nursery rhyme is: <span class="question1"></span> and you drink <span class="question2"></span> you have revealed an affinity for working with vintage or legacy code like C and Java. These are still very important languages to learn in spite of their potential security problems. Your love of the artist, <span class="painter"></span> leads us to believe that your keen intellect and sensitivity to the arts will be perfect for React or Ruby on Rails. Oh<span class="exclamation"></span> ! I just remembered that because you travel by <span class="transportation"></span> you will like React! Don't bother with <strong>Python</strong>. If your favorite kitchen appliance is a <span class="appliance"></span>, forget about it! That machine refuses to learning anything new.
+        </p>
+      </div>
+  </div>
+</body>
+</html>
+ 
