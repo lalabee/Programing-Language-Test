@@ -1,40 +1,26 @@
 body {
-  background-color: bisque;
+  background-color: #33adff;
 }
-.imagebox {
-  justify-content: center;
-  background-color: rgb(114, 157, 236);
-  width: 700px
-  border: 4px, green;
-  padding: 50px 80px 30px 80px;
-}
-.containerShowing {
-  display: none;
-  padding: 50px 80px 20px 80px;
-}
-.storyShowing {
-  display: none;
-  padding: 50px 80px 20px 80px;
-}
-
-.beginTest {
-  font-size: 20px;
-  font-weight: bold;
-  color: white;
-  }
-
-.startButton {
-  on-click: display(#formOne);
-  text: red;
-  border:3px;
-  border-color: red;
-}
-.containerShowing {
-  padding: 20px, 30px,20px,30px;
+img {
+  justify-self: center;
+  width: 600px;
+  padding: 50px 50px 50px 50px;
 }
 p {
-font-size: 18px;
+  font-size: large;
+  cursor: pointer;
+  color: red;
 }
-.btn {
-  color: red; 
+
+.questions {
+  max-width: fit-content;
+  max-height: fit-content;
+  padding: 50px, 50px, 50px, 50px;
 }
+#story {
+  color: white;
+  font-size: 18px;
+  padding: 50px 80px 50px 80px;
+}
+
+
