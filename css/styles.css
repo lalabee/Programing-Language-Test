@@ -4,23 +4,35 @@ body {
 img {
   justify-self: center;
   width: 600px;
-  padding: 50px 50px 50px 50px;
+  padding: 50px 50px 50px 20px;
 }
-p {
+button {
   font-size: large;
   cursor: pointer;
   color: red;
 }
 
-.questions {
-  max-width: fit-content;
-  max-height: fit-content;
-  padding: 50px, 50px, 50px, 50px;
+#container {
+  justify-self: center;
+  viewport-fit: 400px;
+  max-height: 450px ;
+  padding: 20px, 20px;
 }
-#story {
+h2 {
+  color: white;
+}
+
+.btn {
+  font-size: large;
+  cursor: pointer;
+  color: red;
+}
+
+#storyShowing {
+  display: hide;
   color: white;
   font-size: 18px;
-  padding: 50px 80px 50px 80px;
+  padding: 50px 80px;
 }
 
 
