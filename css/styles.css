@@ -1,38 +1,13 @@
-body {
-  background-color: #33adff;
+.pinkText {
+  color: pink;
 }
-img {
-  justify-self: center;
-  width: 600px;
-  padding: 50px 50px 50px 20px;
-}
-button {
-  font-size: large;
-  cursor: pointer;
-  color: red;
+.text {
+  display: block;
 }
 
-#container {
-  justify-self: center;
-  viewport-fit: 400px;
-  max-height: 450px ;
-  padding: 20px, 20px;
-}
-h2 {
-  color: white;
+.hide {
+  display: none;
 }
 
-.btn {
-  font-size: large;
-  cursor: pointer;
-  color: red;
-}
-
-#storyShowing {
-  display: hide;
-  color: white;
-  font-size: 18px;
-  padding: 50px 80px;
-}
 
 
